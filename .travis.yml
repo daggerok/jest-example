@@ -1,0 +1,13 @@
+language: node_js
+install: true
+before_script: npm ci
+jobs:
+  include:
+    - stage: test
+      node_js: lts/*
+      name: test
+      script: npm t
+cache:
+  directories:
+    - node_modules
+  npm: true
