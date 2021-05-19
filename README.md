@@ -1,7 +1,7 @@
-# jest example [![Build Status](https://travis-ci.org/daggerok/jest-example.svg?branch=master)](https://travis-ci.org/daggerok/jest-example)
+# jest example [![CI](https://github.com/daggerok/jest-example/actions/workflows/ci.yaml/badge.svg)](https://github.com/daggerok/jest-example/actions/workflows/ci.yaml)
 testing js with jest
 
-see [hello.test.js] and [.travis.yml] files for quick reference of how use jest for tests.
-
-[hello.test.js]: src/hello.test.js
-[.travis.yml]: .travis.yml
+checkout:
+* [hello.js]: src/hello.js
+* [hello.test.js]: src/hello.test.js
+* [.github/workflows/ci.yaml]: .github/workflows/ci.yaml
