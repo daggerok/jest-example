@@ -1,17 +1,20 @@
 {
   "name": "jest-example",
   "version": "1.0.0",
-  "description": "",
+  "description": "jest simple unit testing minimal starter",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "jest",
+    "github-actions"
+  ],
+  "author": "Maksim Kostromin https://github.com/daggerok/",
+  "license": "MIT",
   "devDependencies": {
-    "@types/jest": "24.0.15",
-    "@types/node": "12.0.12",
-    "jest": "24.8.0"
+    "@types/jest": "26.0.23",
+    "@types/node": "15.3.0",
+    "jest": "26.6.3"
   }
 }
